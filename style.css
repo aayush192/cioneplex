@@ -295,6 +295,7 @@ footer{
     width: 100%;
     display: flex;
     font-size: larger;
+    margin-top:10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;

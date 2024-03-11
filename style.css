@@ -105,6 +105,7 @@ body{
 .select select{
     border: none;
     border-radius: 4px;
+    background-color:black;
 }
 .search input{
     border: none;

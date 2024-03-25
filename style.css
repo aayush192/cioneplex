@@ -84,7 +84,6 @@ body{
 .option-home{
     display: flex;
     margin-right: 50px;
-    margin-top: 50px;
 
 }
 .list{
@@ -100,7 +99,7 @@ body{
 }
 .list a:hover{
     color: rgb(242, 62, 62);
-    box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke; 
+    box-shadow: 0.1px 0.1px 0.1px 0.1px whitesmoke; 
 }
 .select select{
     margin: 30;
@@ -116,8 +115,6 @@ body{
     
 }
 .search button{
-    padding: 100px;
-
     border: none;
     padding: 0px;
 margin: 40;    background-color: gray;

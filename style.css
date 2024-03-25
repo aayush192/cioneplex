@@ -116,6 +116,7 @@ body{
     
 }
 .search button{
+    padding: 100px;
 
     border: none;
     padding: 0px;

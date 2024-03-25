@@ -1,5 +1,7 @@
 # Cineplex - Your Cinematic Universe
 
+Uses HTML, CSS and Ayush's Mehenat
+
 ## Introduction
 
 Welcome to Cineplex, your ultimate destination for a cinematic journey like never before. Dive into a world of movies, entertainment, and endless possibilities. Cineplex is your go-to platform for discovering, watching, and discussing all things film.

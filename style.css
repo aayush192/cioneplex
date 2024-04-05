@@ -122,7 +122,8 @@ margin: 40;    background-color: gray;
 }
 .search button:hover{
     cursor: pointer;
-      color: rgb(246, 22, 18);
+     background-color: rgb(246, 22, 18);
+    
 
 }
 /*main part of page */

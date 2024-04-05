@@ -180,7 +180,6 @@ main{
 }
 .type a:hover{
     color: red;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
 }
 .date{
     margin-top: 40px;

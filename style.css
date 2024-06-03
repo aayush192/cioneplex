@@ -21,7 +21,8 @@ body{
 }
 .logo{
     display: flex;
-    color: azure;margin-top: 5px;
+    color: red;
+    margin-top: 5px;
     font-size: 1.6rem;
 }
 .logostr{

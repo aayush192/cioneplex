@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    color: red;
+    margin-top: 5px;
+    font-size: 1.6rem;
+}
+.logostr{
+    width:20px;
+    height: 20px;
+    border: 7px solid black;
+    z-index: 2;
+    margin-top: 3px;
+    border-radius: 50%;
+    animation: circle 0.51s linear 1s infinite;
+}
+.logostr p{
+    color: red;
+    position: relative;
+    font-size: 20px;
+    top: -7px;
+    left: -6px;
+}
+.logo p{
+    margin-top: 5px;
+    margin-left: 8px;
+    color: rgb(255, 100, 100);
+    font-weight: 700;
+}
+.logo p:hover{
+    cursor: pointer;
+}
+@keyframes circle{
+    0%{
+        border-top:7px solid white ;
+        border-right:7px solid rgb(167, 167, 167) ;
+        border-bottom:7px solid rgb(54, 54, 54) ;
+        border-left:7px solid rgb(0, 0, 0) ;
+
+    }
+   
+    33.33%{
+        border-right:7px solid white ;
+        border-bottom:7px solid rgb(167, 167, 167) ;
+        border-left:7px solid rgb(54, 54, 54) ;
+        border-top:7px solid rgb(0, 0, 0) ;
+
+    }
+    66.66%{
+        border-bottom:7px solid white ;
+        border-left:7px solid rgb(167, 167, 167) ;
+        border-top:7px solid rgb(54, 54, 54) ;
+        border-right:7px solid rgb(0, 0, 0) ;
+
+    }
+    100%{
+        border-left:7px solid white ;
+        border-top:7px solid rgb(167, 167, 167) ;
+        border-right:7px solid rgb(54, 54, 54) ;
+        border-bottom:7px solid rgb(0, 0, 0) ;
+
+    }
+   
+}
+.option-home{
+    display: flex;
+    margin-right: 50px;
+    margin-top:10px;
+
+}
+.list{
+    margin-left: 30px;
+    border-radius: 2px;
+}
+.list a{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+}
+.list a:hover{
+    color: rgb(242, 62, 62);
+}
+.select select{
+    margin: 30;
+    border: none;
+    border-radius: 4px;
+}
+.search input{
+    border: none;
+    border-radius: 4px;
+}
+.search input:hover{
+    box-shadow: 1px 0.7px 0.5px 0.5px rgb(199, 46, 74);
+    
+}
+.search button{
+    border: none;
+    padding: 2px;
+    margin-left: 3px;
+margin: 40;    background-color: gray;
+    border-radius: 4px;
+}
+.search button:hover{
+    cursor: pointer;
+    color: black;
+     background-color: rgb(255, 255, 255);
+    
+
+}
+/*main part of page */
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top:55px;
+}
+.cointainer1{
+ overflow-y:scroll;
+ overflow-x: hidden;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ display: relative;
+ width: 90%;
+ height: 100vh;
+ background-color:black ;
+}
+.cointainer2{
+    background-color: black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    position: relative;
+    right: 0;
+    width: 15%;
+    color: red;
+    text-align: center;
+}
+.box{
+    width: 200px;
+    height: 260px;
+    border: 1px solid black;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 7px;
+    color: rgb(221, 221, 221);
+}
+.box:hover{
+    box-shadow: 0.1px 2px 2px 1px red;
+    color: red;
+}
+.type{
+    margin-top: 30px;
+}
+.type a{
+    color: orange;
+    font-size: larger;
+    border-radius: 5px;
+
+    transition: 0.2s ease-in-out;
+}
+.type a:hover{
+    color: red;
+}
+.date{
+    margin-top: 40px;
+}
+/*image*/
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 260px;
+text-align: center;
+}
+.content h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img{
+    height: 200px;
+    width: 150px;
+    background-size:cover;
+    border-radius:7px;
+    margin-left: 23px;
+}
+.img1{
+    background-image: url("/img/images.jfif");
+}
+.img2{
+    background-image: url("/img/image.png");
+}
+.img3{
+    background-image: url("/img/image1.png");
+}
+.img4{
+    background-image: url("/img/images2.png");
+}
+.img5{
+    background-image: url("/img/images5.png");
+}
+.img6{
+    background-image: url("/img/Death_Note_Vol_1.jpg");
+}
+.img7{
+    background-image: url("/img/images7.png");
+}
+.img8{
+    background-image: url("/img/images8.png");
+}
+.img9{
+    background-image: url("/img/images9.png");
+}
+.img10{
+    background-image: url("/img/images10.png");
+}
+.img11{
+    background-image: url("/img/images11.png");
+}
+.img12{
+    background-image: url("/img/images12.png");
+}
+.img13{
+    background-image: url("/img/images13.png");
+}
+.img14{
+    background-image: url("/img/images14.png");
+}
+.img15{
+    background-image: url("/img/images15.png");
+}
+.img16{
+    background-image: url("/img/images16.png");
+
+}
+.img17{
+    background-image: url("/img/images17.png");
+}
+.img18{
+    background-image: url("/img/images18.png");
+}
+.img19{
+    background-image: url("/img/images19.png");
+}
+.img20{
+    background-image: url("/img/images20.png");
+}
+.img21{
+    background-image: url("/img/images21.png");
+}
+.img22{
+    background-image: url("/img/images22.png");
+}
+.img23{
+    background-image: url("/img/images23.png");
+}
+.img24{
+    background-image: url("/img/images24.png");
+}
+.img25{
+    background-image: url("/img/images25.png");
+}
+.img26{
+    background-image: url("/img/images26.png");
+}
+.img27{
+    background-image: url("/img/images27.png");
+}
+.img28{
+    background-image: url("/img/images28.png");
+}
+footer{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    font-size: larger;
+    margin-top:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+}
